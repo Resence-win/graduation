@@ -1,0 +1,20 @@
+# Node / 前端
+node_modules/
+/dist/
+/.vite/
+
+# Java / 后端
+/target/
+*.iml
+
+# IDE / 工具
+.idea/
+.cursor/
+.vscode/
+
+# 系统文件
+.DS_Store
+
+# 日志
+*.log
+
