@@ -8,7 +8,11 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: Asia/Shanghai
-
+  servlet:
+    multipart:
+      max-file-size: 10MB       # 单个文件最大 10MB
+      max-request-size: 20MB    # 整个请求最大 20MB
+      
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true

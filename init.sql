@@ -165,6 +165,7 @@ CREATE TABLE merchant (
     name VARCHAR(100) NOT NULL, -- 商户名称
     type_id INT,                -- 商户类型ID
     location VARCHAR(200),      -- 商户位置
+    logo VARCHAR(255),          -- 商户Logo
     status VARCHAR(20) DEFAULT 'open', -- 营业状态
     create_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 
